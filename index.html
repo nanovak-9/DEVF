@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pinterest</title>
+    <title>Pinterest Mockup</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="icon" href="/img/logo16.png">
 </head>
@@ -13,29 +13,32 @@
 <body>
     <header>
         <nav class="nav-bar">
+
             <div class="nav-side">
                 <img class="icon-hover" src="/img/logo24.png" href="index.html"></a>
-                <a class="ainicio" href="index.html">Inicio</a>
-                <div class="acrear disp-none">
-                    <label for="menu">Crear</label>
-                    <select name="crear" id="menu">
-                        <option value="">Crear Idea Pin</option>
-                        <option value="">Crear Pin</option>
-                    </select>
-                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-arrow-down" width="20"
-                        height="20" viewBox="0 0 24 24" stroke-width="1.5" stroke="#9e9e9e" fill="none"
-                        stroke-linecap="round" stroke-linejoin="round">
-                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                        <line x1="12" y1="5" x2="12" y2="19" />
-                        <line x1="18" y1="13" x2="12" y2="19" />
-                        <line x1="6" y1="13" x2="12" y2="19" />
-                    </svg>
+                <a class="ainicio icon-hover1" href="index.html">Inicio</a>
+                <div class="disp-none">
+                    <div class="dropdown">
+                        <button class="crearb"><span>Crear</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-arrow-down"
+                                width="20" height="20" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000"
+                                fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                <line x1="12" y1="5" x2="12" y2="19" />
+                                <line x1="18" y1="13" x2="12" y2="19" />
+                                <line x1="6" y1="13" x2="12" y2="19" />
+                            </svg></button>
+                        <div class="dropdown-content">
+                            <a href="#">Crear Idea</a>
+                            <a href="#">Crear Pin</a>
+                        </div>
+                    </div>
                 </div>
             </div>
 
             <div class="nav-center">
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="28"
-                    height="28" viewBox="0 0 24 24" stroke-width="1.5" stroke="#9e9e9e" fill="none"
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search icon-hover2"
+                    width="28" height="28" viewBox="0 0 24 24" stroke-width="1.5" stroke="#9e9e9e" fill="none"
                     stroke-linecap="round" stroke-linejoin="round">
                     <path stroke="none" d="M0 0h24v24H0z" fill="none" />
                     <circle cx="10" cy="10" r="7" />
@@ -45,46 +48,106 @@
             </div>
 
             <div class="nav-side">
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-hover icon-tabler icon-tabler-bell" width="32"
-                    height="32" viewBox="0 0 24 24" stroke-width="1.5" stroke="#9e9e9e" fill="none"
-                    stroke-linecap="round" stroke-linejoin="round">
-                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                    <path d="M10 5a2 2 0 0 1 4 0a7 7 0 0 1 4 6v3a4 4 0 0 0 2 3h-16a4 4 0 0 0 2 -3v-3a7 7 0 0 1 4 -6" />
-                    <path d="M9 17v1a3 3 0 0 0 6 0v-1" />
-                </svg>
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-hover icon-tabler icon-tabler-message-circle-2"
-                    width="32" height="32" viewBox="0 0 24 24" stroke-width="1.5" stroke="#9e9e9e" fill="none"
-                    stroke-linecap="round" stroke-linejoin="round">
-                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                    <path d="M3 20l1.3 -3.9a9 8 0 1 1 3.4 2.9l-4.7 1" />
-                    <line x1="12" y1="12" x2="12" y2="12.01" />
-                    <line x1="8" y1="12" x2="8" y2="12.01" />
-                    <line x1="16" y1="12" x2="16" y2="12.01" />
-                </svg>
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-hover icon-tabler icon-tabler-circle"
-                    width="32" height="32" viewBox="0 0 24 24" stroke-width="1.5" stroke="#9e9e9e" fill="none"
-                    stroke-linecap="round" stroke-linejoin="round">
-                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                    <circle cx="12" cy="12" r="9" />
-                </svg>
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-hover icon-tabler icon-tabler-arrow-down"
-                    width="25" height="20" viewBox="0 0 24 24" stroke-width="1.5" stroke="#9e9e9e" fill="none"
-                    stroke-linecap="round" stroke-linejoin="round">
-                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                    <line x1="12" y1="5" x2="12" y2="19" />
-                    <line x1="18" y1="13" x2="12" y2="19" />
-                    <line x1="6" y1="13" x2="12" y2="19" />
-                </svg>
+                <div class="dropdown">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-hover icon-tabler icon-tabler-bell"
+                        width="32" height="32" viewBox="0 0 24 24" stroke-width="1.5" stroke="#9e9e9e" fill="none"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                        <path
+                            d="M10 5a2 2 0 0 1 4 0a7 7 0 0 1 4 6v3a4 4 0 0 0 2 3h-16a4 4 0 0 0 2 -3v-3a7 7 0 0 1 4 -6" />
+                        <path d="M9 17v1a3 3 0 0 0 6 0v-1" />
+                    </svg>
+                    <div class="dropdown-content dropdown-content1">
+                        <a href="#">Notificaciones</a>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <svg xmlns="http://www.w3.org/2000/svg"
+                        class="icon icon-hover icon-tabler icon-tabler-message-circle-2" width="32" height="32"
+                        viewBox="0 0 24 24" stroke-width="1.5" stroke="#9e9e9e" fill="none" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                        <path d="M3 20l1.3 -3.9a9 8 0 1 1 3.4 2.9l-4.7 1" />
+                        <line x1="12" y1="12" x2="12" y2="12.01" />
+                        <line x1="8" y1="12" x2="8" y2="12.01" />
+                        <line x1="16" y1="12" x2="16" y2="12.01" />
+                    </svg>
+                    <div class="dropdown-content dropdown-content1">
+                        <a href="#">Mensajes</a>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-hover icon-tabler icon-tabler-circle"
+                        width="32" height="32" viewBox="0 0 24 24" stroke-width="1.5" stroke="#9e9e9e" fill="none"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                        <circle cx="12" cy="12" r="9" />
+                    </svg>
+                    <div class="dropdown-content dropdown-content1">
+                        <a href="#">Tu perfil</a>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-hover icon-tabler icon-tabler-arrow-down"
+                        width="25" height="20" viewBox="0 0 24 24" stroke-width="1.5" stroke="#9e9e9e" fill="none"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                        <line x1="12" y1="5" x2="12" y2="19" />
+                        <line x1="18" y1="13" x2="12" y2="19" />
+                        <line x1="6" y1="13" x2="12" y2="19" />
+                    </svg>
+                    <div class="dropdown-content dropdown-content1">
+                        <a href="#">Cuentas y más opciones</a>
+                    </div>
+                </div>
             </div>
+
         </nav>
     </header>
 
     <main>
+
+
         <div class="container">
+
 
             <div class="pinbox pb1">
                 <img src="/img/pin0.jpg" alt="Strawberries">
-                <div class="pininfo"></div>
+                <div class="pininfo">
+
+                    <div class="pininfouser">
+                        <div class="profilepic">S</div>
+                        <span>StrawberryFields4e</span>
+                    </div>
+                    <div class="pininfodata">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-heart" width="20"
+                            height="20" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ff2825" fill="none"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                            <path
+                                d="M19.5 13.572l-7.5 7.428l-7.5 -7.428m0 0a5 5 0 1 1 7.5 -6.566a5 5 0 1 1 7.5 6.572" />
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-bulb" width="20"
+                            height="20" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffbf00" fill="none"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                            <path d="M3 12h1m8 -9v1m8 8h1m-15.4 -6.4l.7 .7m12.1 -.7l-.7 .7" />
+                            <path d="M9 16a5 5 0 1 1 6 0a3.5 3.5 0 0 0 -1 3a2 2 0 0 1 -4 0a3.5 3.5 0 0 0 -1 -3" />
+                            <line x1="9.7" y1="17" x2="14.3" y2="17" />
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user-exclamation"
+                            width="20" height="20" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ff9300" fill="none"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                            <circle cx="9" cy="7" r="4" />
+                            <path d="M3 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+                            <line x1="19" y1="7" x2="19" y2="10" />
+                            <line x1="19" y1="14" x2="19" y2="14.01" />
+                        </svg>
+                        <span>55k</span>
+                    </div>
+
+                </div>
             </div>
 
             <div class="pinbox pb2">
@@ -98,16 +161,83 @@
             <div class="pinbox pb4">
                 <img src="/img/pin2.jpg" alt="Corgi in a field">
                 <div class="pininfo">
+
+                    <div class="pininfouser">
+                        <div class="profilepic">C</div>
+                        <span>CorgiesRheart</span>
+                    </div>
+                    <div class="pininfodata">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-heart" width="20"
+                            height="20" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ff2825" fill="none"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                            <path
+                                d="M19.5 13.572l-7.5 7.428l-7.5 -7.428m0 0a5 5 0 1 1 7.5 -6.566a5 5 0 1 1 7.5 6.572" />
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-bulb" width="20"
+                            height="20" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffbf00" fill="none"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                            <path d="M3 12h1m8 -9v1m8 8h1m-15.4 -6.4l.7 .7m12.1 -.7l-.7 .7" />
+                            <path d="M9 16a5 5 0 1 1 6 0a3.5 3.5 0 0 0 -1 3a2 2 0 0 1 -4 0a3.5 3.5 0 0 0 -1 -3" />
+                            <line x1="9.7" y1="17" x2="14.3" y2="17" />
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user-exclamation"
+                            width="20" height="20" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ff9300" fill="none"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                            <circle cx="9" cy="7" r="4" />
+                            <path d="M3 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+                            <line x1="19" y1="7" x2="19" y2="10" />
+                            <line x1="19" y1="14" x2="19" y2="14.01" />
+                        </svg>
+                        <span>3 mil</span>
+                    </div>
+
                 </div>
             </div>
 
             <div class="pinbox pb5">
                 <img src="/img/pin4.jpg" alt="Blue flowers on yellow background graphic">
-                <div class="pininfo"></div>
             </div>
 
             <div class="pinbox pb6">
                 <img src="/img/pin5.jpg" alt="Sky mountains and house illustration">
+                <div class="pininfo">
+
+                    <div class="pininfouser">
+                        <div class="profilepic">K</div>
+                        <span>kiosk689</span>
+                    </div>
+                    <div class="pininfodata">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-heart" width="20"
+                            height="20" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ff2825" fill="none"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                            <path
+                                d="M19.5 13.572l-7.5 7.428l-7.5 -7.428m0 0a5 5 0 1 1 7.5 -6.566a5 5 0 1 1 7.5 6.572" />
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-bulb" width="20"
+                            height="20" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffbf00" fill="none"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                            <path d="M3 12h1m8 -9v1m8 8h1m-15.4 -6.4l.7 .7m12.1 -.7l-.7 .7" />
+                            <path d="M9 16a5 5 0 1 1 6 0a3.5 3.5 0 0 0 -1 3a2 2 0 0 1 -4 0a3.5 3.5 0 0 0 -1 -3" />
+                            <line x1="9.7" y1="17" x2="14.3" y2="17" />
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user-exclamation"
+                            width="20" height="20" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ff9300" fill="none"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                            <circle cx="9" cy="7" r="4" />
+                            <path d="M3 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+                            <line x1="19" y1="7" x2="19" y2="10" />
+                            <line x1="19" y1="14" x2="19" y2="14.01" />
+                        </svg>
+                        <span>3,6k</span>
+                    </div>
+
+                </div>
             </div>
 
             <div class="pinbox pb7">
@@ -117,7 +247,11 @@
             <div class="pinbox pb8">
                 <img src="/img/pin7.jpg" alt="Woman outline graphic">
             </div>
+
+
         </div>
+
+
     </main>
 
 </body>
